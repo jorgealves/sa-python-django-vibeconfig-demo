@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env/
+env/
+venv/
+ENV/
+env.bak/
+*.sqlite3
+
+# Django
+db.sqlite3
+*.log
+staticfiles/
+media/
+local_settings.py
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+
+# Test
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Migrations (optional, keep if you want to ignore generated migrations)
+# tasks/migrations/
+__pycache__/
+.venv/
+.mypy_cache/
